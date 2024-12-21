@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Minor Project/About Us</title>
+    <link rel="stylesheet" href="CSS/index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="CSS/loading.css" />
+    <link rel="stylesheet" href="CSS/SignUp LogIn.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+  </head>
+  <body>
+    <div id="loading">
+      <div class="loader"></div>
+    </div>
+    <div class="home">
+      <!-- mobile menubar code -->
+      <header>
+        <div class="menuBar">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="aboutUs.html">About Us</a></li>
+            <li><a href="contectUs.html">Contect Us</a></li>
+            <li>
+              <a
+                style="
+                  background-color: #3a89d9;
+                  padding: 5px 40px;
+                  color: white;
+                "
+                > Log In </a
+              >
+            </li>
+          </ul>
+        </div>
+        <!-- Navbar code -->
+        <div class="NavBar">
+          <h1>Comprehensive Notes</h1>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="aboutUs.html">About Us</a></li>
+            <li><a href="contectUs.html">Contect Us</a></li>
+            <li>
+              <a
+                style="
+                  background-color: #3a89d9;
+                  padding: 5px 40px;
+                  color: white;
+                "
+              >
+                Log In
+              </a>
+            </li>
+          </ul>
+          <div class="menuButton1"><i class="fa-solid fa-bars fa-2x"></i></div>
+          <!-- icon menu three line-->
+          <div class="menuButton2"><i class="fa-solid fa-xmark fa-2x"></i></div>
+          <!-- icon menu  clear  -->
+        </div>
+      </header>
+      <main>
+        <div class="box">
+          <div id="logIn" class="animate__animated animate__flipInY">
+            <form>
+              <h1>Log In</h1>
+              <div>
+                <i class="fa-solid fa-envelope fa-2x"></i>
+                <input
+                  name="uEmail"
+                  type="email"
+                  required="required"
+                  placeholder="Please Enter a Email Id :- "
+                />
+              </div>
+              <div>
+                <i class="fa-solid fa-lock fa-2x"></i>
+                <input
+                  type="password"
+                  name="uPassword"
+                  required="required"
+                  placeholder="Please Enter a password :- "
+                />
+                <!-- <div class="eye">
+                  <i class="fa-solid fa-eye fa-2x"></i>
+                 <i class="fa-sharp fa-solid fa-eye-slash fa-2x"></i>
+                </div> -->
+              </div>
+
+              <button>Log In</button>
+              <div id="signUpButton">
+                <span>Create your New account</span>
+              </div>
+            </form>
+          </div>
+          <div id="signUp" class="animate__animated animate__flipInY">
+            <form>
+              <h1>Sign Up</h1>
+              <div>
+                <i class="fa-solid fa-user fa-2x"></i>
+                <input
+                  id="fullname"
+                  name="name"
+                  type="text"
+                  required="required"
+                  placeholder="Please Enter a Full Name :- "
+                />
+              </div>
+              <div>
+                <i class="fa-solid fa-envelope fa-2x"></i>
+                <input
+                  id="email"
+                  type="email"
+                  name="email"
+                  required="required"
+                  placeholder="Please Enter a Email Id :- "
+                />
+              </div>
+              <div>
+                <i class="fa-solid fa-mobile fa-2x"></i>
+                <input
+                  type="number"
+                  id="num"
+                  name="number"
+                  required="required"
+                  placeholder="Please Enter a Phone Number :- "
+                />
+              </div>
+              <div>
+                <i class="fa-solid fa-lock fa-2x"></i>
+                <input
+                  id="pass"
+                  type="password"
+                  name="password"
+                  required="required"
+                  placeholder="Please Create a password :- "
+                />
+              </div>
+
+              <button>Sign Up</button>
+
+              <div id="logInButton">
+                <span>
+                  Already have an account
+                  <a style="color: blue; text-decoration: underline"
+                    >Log In</a
+                  ></span
+                >
+              </div>
+            </form>
+          </div>
+        </div>
+      </main>
+   
+        <footer>
+          <h1> <span>&#169</span> copyrite by : Comprehensive Notes </h1>
+      </footer>
+     
+    </div>
+
+    <script src="JS/index.js"></script>
+    <script src="JS/loading.js"></script>
+    <script src="JS/SignUp LogIn.js"></script>
+  </body>
+</html>

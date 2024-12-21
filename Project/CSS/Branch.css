@@ -1,0 +1,43 @@
+main{
+  padding: 20px 0px;
+}
+ 
+main h1{
+  background-color: #cccccc36;
+  display: inline;
+  padding: 5px 15px;
+  border-radius: 15px;
+}
+
+main h1 a{
+   font-size: 25px;
+   text-decoration: none;
+   color: black;
+}
+
+.box{
+  width: 100%;
+  height: auto;
+  padding: 20px 0px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 4rem;
+}
+.sem{
+  padding: 15px 0px;
+  background-color: #cccc;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+  border-radius: 10px;
+  font-size: 25px;
+  cursor: pointer;
+  text-decoration: none;
+  
+}
+
+
+.sem:active{
+  background-color: #0073e61e;
+ transition: all 0.1s;
+}
